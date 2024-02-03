@@ -2,7 +2,10 @@
 
 ## Important
 
-Project is in development. Open item: tests.
+Project is in development. Open items:
+
+-   Fix deployment issue to GitHub Pages (gh-pages);
+-   Set unit tests.
 
 ## Description
 
