@@ -27,11 +27,15 @@ To get started with the Delivery Fee Calculator:
 
 To run the Delivery Fee Calculator:
 
-`npm run dev`
+`npm start`
 
 Navigate to http://localhost:3000 (or the URL provided in your terminal) to view the application.
 
-## Testing
+To deploy project to GitHub pages (gh-pages):
+
+`npm run deploy`
+
+## Testing (In development - See Important Note above)
 
 The application comes with a suite of tests to ensure functionality. Run the tests using:
 

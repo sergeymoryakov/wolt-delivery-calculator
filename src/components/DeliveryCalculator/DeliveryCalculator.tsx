@@ -27,27 +27,27 @@ const INITIAL_DELIVERY_DETAILS: DeliveryDetails = {
 };
 
 // *** TESTING SECTION - REMOVE IN PROD **
-function testFunction(argument: number) {
-    return Math.ceil(argument / 500);
-}
-const testResult: number = testFunction(1000);
-console.log("distance surcharge: ", testResult);
+// function testFunction(argument: number) {
+//     return Math.ceil(argument / 500);
+// }
+// const testResult: number = testFunction(1000);
+// console.log("distance surcharge: ", testResult);
 
-if (import.meta.vitest) {
-    const { describe, expect, it } = import.meta.vitest;
+// if (import.meta.vitest) {
+//     const { describe, expect, it } = import.meta.vitest;
 
-    describe("#testFunction", () => {
-        it("returns 3 with 1499", () => {
-            expect(testFunction(1499)).toBe(3);
-        });
-        it("returns 3 with 1500", () => {
-            expect(testFunction(1500)).toBe(3);
-        });
-        it("returns 4 with 1501", () => {
-            expect(testFunction(1501)).toBe(4);
-        });
-    });
-}
+//     describe("#testFunction", () => {
+//         it("returns 3 with 1499", () => {
+//             expect(testFunction(1499)).toBe(3);
+//         });
+//         it("returns 3 with 1500", () => {
+//             expect(testFunction(1500)).toBe(3);
+//         });
+//         it("returns 4 with 1501", () => {
+//             expect(testFunction(1501)).toBe(4);
+//         });
+//     });
+// }
 // *** TESTING SECTION ENDS HERE ***
 
 function DeliveryCalculator() {
