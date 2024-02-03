@@ -1,0 +1,50 @@
+:root {
+    --cb-color-textPrimary: rgb(32, 33, 37);
+    --cb-color-textSecondary: rgba(32, 33, 37, 0.639);
+    --cb-color-textTertiary: rgba(32, 33, 37, 0.4);
+    --cb-color-surfaceMain: rgb(255, 255, 255);
+    --cb-color-borderPrimary: rgba(32, 33, 37, 0.122);
+    --cb-color-borderLight: rgba(32, 33, 37, 0.122);
+    --cb-color-a11yFocusIndicator: rgb(15, 37, 148);
+
+    --box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0.125rem 0px,
+        rgba(0, 0, 0, 0.12) 0px 0.125rem 0.125rem 0px;
+}
+
+body {
+    min-width: 300px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-color: var(--cb-color-surfaceMain);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+label,
+input,
+textarea,
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Roboto",
+        "Open Sans", sans-serif;
+    font-weight: 400;
+    color: var(--cb-color-textPrimary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
